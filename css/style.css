@@ -844,10 +844,18 @@ body {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
-
+.banner__mobile{
+  display: none;
+}
 @media (max-width: 778px) {
   .main__inner::-webkit-scrollbar-track {
     background-color: #ECECF3;
+  }
+  .banner__desctop{
+    display: none;
+  }
+  .banner__mobile{
+    display: block;
   }
   .header__btn {
     display: none;
