@@ -51,25 +51,26 @@ curs.addEventListener('click', () =>{
 
 // Реализация функционала select
 
+let select = document.querySelector(".think__form-select")
 const value1 = document.querySelector("#value1")
 const value2 = document.querySelector("#value2")
 const value3 = document.querySelector("#value3")
 const value4 = document.querySelector("#value4")
 
 value1.addEventListener('click', function(){
-  select.textContent=value1.value
+  select.textContent=value1.dataset.book
 })
 value2.addEventListener('click', function(){
-  select.textContent=value2.value
+  select.textContent=value2.dataset.book
 })
 value3.addEventListener('click', function(){
-  select.textContent=value3.value
+  select.textContent=value3.dataset.book
 })
 value4.addEventListener('click', function(){
-  select.textContent=value4.value
+  select.textContent=value4.dataset.book
 })
 
-let select = document.querySelector(".think__form-select")
+
 const popup = document.querySelector(".think__form-popup")
 const formSvg = document.querySelector(".think__form-svg")
 

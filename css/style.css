@@ -509,7 +509,10 @@ body {
   border: 1px solid #EDEDF1;
   width: 238px;
   height: 50px;
+  
+  cursor: pointer;
   background: #FFF;
+  
   padding-left: 15px;
   color: #777;
   font-size: 14px;
@@ -646,6 +649,9 @@ body {
 }
 .think__form-input {
   position: relative;
+  
+  
+  
 }
 .think__form-input.active {
   background: #F1F1F3;
@@ -672,7 +678,21 @@ body {
   background-color: #2D1AA7;
   top: 0;
 }
-
+.think__form-tab{
+  cursor: pointer;
+  padding: 5px;
+  color: var(--font, #202326);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  border: none;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 17px;
+  display: inline-block;
+}
 .posts {
   padding-top: 60px;
   padding-bottom: 101px;
@@ -836,11 +856,11 @@ body {
   display: none;
 }
 
-.think__form-input:first-child input {
+.think__form-input:first-child button {
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
-.think__form-input:last-child input {
+.think__form-input:last-child button {
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 }
